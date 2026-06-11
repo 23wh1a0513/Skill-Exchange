@@ -51,17 +51,18 @@ A full-stack web application that connects mentors and mentees, enabling skill s
 
 ## 📁 Project Structure
 Skill_Exchange/
-├── server.js /                   # Main Express + WebSocket server
-├── package.json/
-├── README.md
+├── server.js                  # Main Express.js + WebSocket server
+├── package.json               # Project dependencies
+├── README.md                  # Project documentation
+│
 └── public/
-    ├── index.html               # Landing page
-    ├── login.html
-    ├── signup.html
-    ├── mentor-dashboard.html
-    ├── mentee-dashboard.html
-    ├── messages.html
-    └── admin-dashboard.html
+    ├── index.html             # Landing page
+    ├── login.html             # User login page
+    ├── signup.html            # User registration page
+    ├── mentor-dashboard.html  # Mentor dashboard
+    ├── mentee-dashboard.html  # Mentee dashboard
+    ├── messages.html          # Real-time messaging interface
+    └── admin-dashboard.html   # Admin management dashboard
 
 
 ---
