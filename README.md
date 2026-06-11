@@ -50,7 +50,6 @@ A full-stack web application that connects mentors and mentees, enabling skill s
 ---
 
 ## 📁 Project Structure
-## 📁 Project Structure
 
 ```text
 Skill_Exchange/
