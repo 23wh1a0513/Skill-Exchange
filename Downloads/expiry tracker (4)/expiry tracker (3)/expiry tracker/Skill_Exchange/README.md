@@ -1,43 +1,44 @@
 # Skill Exchange
 
-Skill Exchange is a lightweight web app scaffold for connecting mentors and mentees. This README documents the intended folder layout and how to run the app locally.
+Skill Exchange
 
-Overview
+Skill Exchange is a small web app scaffold used to connect mentors and mentees. This README focuses on a clear, visual project structure and quick usage notes so the repository looks like the example image.
 
-- Minimal Express static server that serves the frontend from `public/`.
-- Optional WebSocket/Socket.IO support can be added in `server.js` for real-time messaging.
+Project Structure
 
-Folder structure
+The layout below mirrors the screenshot/design you shared:
 
 Skill_Exchange/
-├─ server.js                 # (optional) Express server entrypoint
-├─ package.json              # (optional) npm manifest for server and build scripts
-└─ public/                   # Static frontend files served by the server
-   ├─ index.html             # Landing / home page
-   ├─ login.html             # Login page
-   ├─ signup.html            # Signup / register page
-   ├─ mentor-dashboard.html  # Mentor dashboard view
-   ├─ mentee-dashboard.html  # Mentee dashboard view
-   ├─ messages.html          # Messaging / chat UI
-   └─ admin-dashboard.html   # Admin dashboard
+├─ server.js    # Main Express + WebSocket server
+├─ package.json
+├─ README.md
+└─ public/
+   ├─ index.html               # Landing page
+   ├─ login.html
+   ├─ signup.html
+   ├─ mentor-dashboard.html
+   ├─ mentee-dashboard.html
+   ├─ messages.html
+   └─ admin-dashboard.html
 
-How to use
+How to run (quick)
 
-1. Place this folder inside your workspace or clone the original repository.
+- If you have `server.js` and `package.json` present, run:
 
-2. If you plan to run the server, ensure `server.js` and `package.json` exist, then run:
+```bash
+cd Skill_Exchange
+npm install
+npm start
+```
 
-   npm install
-   npm start
-
-3. If there is no server, open `public/index.html` directly in a browser or serve the `public/` directory using any static server.
+- If there is no server, you can open `public/index.html` in a browser or serve it with any static server (e.g., `npx serve public`).
 
 Notes
 
-- This README only documents the folder layout and how the project is expected to be run; no other files were modified.
-- For a reference implementation, see: https://github.com/23wh1a0513/Skill-Exchange
+- This README only updates documentation and formatting; it does not change any project code or add files.
+- For the original reference repo see: https://github.com/23wh1a0513/Skill-Exchange
 
 License
 
-MIT (or choose your preferred license)
+MIT
 
